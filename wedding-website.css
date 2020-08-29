@@ -6,10 +6,9 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  color: hsla(100,0%,0%,.6);
+  color: hsla(0%,0%,0%,.6);
   text-align: center;
   display: table;
-  position: fixed;
 }
 .headline-wrapper {
   display: table-cell;
@@ -35,3 +34,39 @@ h1 {
   line-height: 3rem;
   background-color: hsl(0, 0%, 5%, 0.5);
 }
+.locations {
+  background-color: #fffff0;
+}
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #444349;
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.ceremony, .photos, .party {
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  color: #444349;
+}
+h3 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  border-top: 0.2rem solid grey;
+}
+img {
+  width: 120px;
+  height: 120px;
+  margin: 1.5rem;
+}
+figcaption {
+  padding-bottom: 1.3rem;
+}
+
+
+
+
