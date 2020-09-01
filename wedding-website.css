@@ -6,7 +6,7 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  color: hsla(0%,0%,0%,.6);
+  color: hsla(0%,0%,0%,.6%);
   text-align: center;
   display: table;
 }
@@ -36,20 +36,20 @@ h1 {
 }
 .locations {
   background-color: #fffff0;
+  color: #444349;
 }
 h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
-  color: #444349;
   padding-top: 2rem;
   text-align: center;
   padding-bottom: 3rem;
+  line-height: 1.5rem;
 }
 .ceremony, .photos, .party {
   text-align: center;
   font-family: 'Mulish', sans-serif;
   font-size: 1rem;
-  color: #444349;
 }
 h3 {
   display: inline-block;
@@ -66,7 +66,75 @@ img {
 figcaption {
   padding-bottom: 1.3rem;
 }
-
-
-
+.program-wrapper {
+  background-color: hsla(100,0%,0%,.6);
+  text-align: justify;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  color: #d2ba87;
+  line-height: 1.5rem;
+}
+.second-tagline {
+  font-style: italic;
+  padding-bottom: 1.2rem;
+}
+ul {
+  padding-bottom: 1.5rem;
+}
+.gifts {
+  background-color: #fffff0;
+  color: #444349;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+}
+.paragraph-line {
+  padding-bottom: 1.5rem;
+}
+.questions {
+  text-align: center;
+  background-color: hsla(100,0%,0%,.6);
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  color: #d2ba87;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.headline-questions {
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+  border-bottom-color: cornsilk;
+}
+.paragraph-question {
+  font-weight: bolder;
+  padding: 1rem 0 0.5rem 0;
+}
+.travel-questions, .food-questions, .other-questions {
+  text-align: left;
+}
+p {
+  margin: 0 1rem 0 1rem;
+  padding-bottom: 0.5rem;
+}
+a {
+  color: #bd806e;
+}
+a:hover {
+  color: #eda087;
+}
+.contact {
+  background-color: #fffff0;
+  color: #444349;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+footer {
+  background-color: #606060;
+  color:aliceblue;
+  text-align: center;
+  padding: .5rem 0 .5rem 0;
+}
 
